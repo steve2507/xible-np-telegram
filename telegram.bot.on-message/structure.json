@@ -1,0 +1,20 @@
+{
+  "name": "telegram.bot.on-message",
+  "type": "event",
+  "inputs": {
+    "bots": {
+      "type": "telegram.bot"
+    }
+  },
+  "outputs": {
+    "trigger": {
+      "type": "trigger"
+    },
+    "message": {
+      "type": "telegram.message"
+    },
+    "chat": {
+      "type": "telegram.chat"
+    }
+  }
+}

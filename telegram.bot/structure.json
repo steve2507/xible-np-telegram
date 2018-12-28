@@ -1,0 +1,10 @@
+{
+  "name": "telegram.bot",
+  "type": "object",
+  "outputs": {
+    "bot": {
+      "type": "telegram.bot"
+    }
+  },
+  "vault": ["token"]
+}

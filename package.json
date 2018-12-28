@@ -1,0 +1,26 @@
+{
+  "name": "xible-np-telegram-bot",
+  "version": "0.1.0",
+  "description": "Set of Telegram Bot nodes for XIBLE",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steve2507/xible-np-telegram-bot"
+  },
+  "bugs": {
+    "url": "https://github.com/steve2507/xible-np-telegram-bot/issues"
+  },
+  "keywords": [
+    "xible",
+    "nodepack",
+    "telegram",
+    "messaging",
+    "bot"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm shrinkwrap --only=prod"
+  },
+  "dependencies": {
+    "telegram-bot-api": "*"
+  }
+}
